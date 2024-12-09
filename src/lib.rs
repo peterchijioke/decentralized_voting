@@ -3,7 +3,6 @@ mod cast_vote;
 mod create_proposal;
 mod proposal; 
 use proposal::Proposal; 
-use arrayref::{ array_refs};
 use solana_program::entrypoint;
 
 use solana_program::{
