@@ -12,7 +12,7 @@ use crate::Proposal;
 
 
 pub fn create(
-    program_id: &Pubkey,
+    _program_id: &Pubkey,
     accounts: &[AccountInfo],
     instruction_data: &[u8],
 ) -> ProgramResult {
